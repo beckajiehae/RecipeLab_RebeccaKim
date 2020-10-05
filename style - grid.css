@@ -32,7 +32,7 @@
         grid-area: cooki;
     }
 
-    }
+
     .ing1 {
         grid-template-columns: (minmax(700px, 1fr));
         grid-area: ingredient1;
