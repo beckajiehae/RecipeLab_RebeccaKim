@@ -1,0 +1,123 @@
+@import url("https://use.typekit.net/rcp5rhy.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+.Title {
+    text-align: center;
+}
+
+body {
+    border: 5px #F29F05;
+    background-color: #212026;
+}
+
+.recipe {
+    margin: 1em;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #93A603;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 20px;
+    color: #F28705;
+}
+
+.title {
+    text-align: center;
+}
+.top {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 7px;
+    border: 1px solid #F28705;
+    border-radius: 5%;
+  }
+
+.pics {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 7px;
+    border: 1px solid #F28705;
+    border-radius: 5%;
+
+  }
+
+.word {
+    margin: 0px 30px 0px 30px;
+  }
+
+.cook {
+    text-align: center;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    color: #F2F2F2;
+    padding: 8px 16px;
+}
+
+h {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: #F28705;
+    text-align: center;
+}
+
+h1 {
+    font-family: viktor-script, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F2F2;
+    margin: 0px 0px 10px 0px;
+}
+
+h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F2F2;
+    text-align: center;
+    margin: 5px;
+}
+
+p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #F2F2F2;
+    margin-bottom: 10px;
+}
+
+p2, p3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.ing1, .ing2 {
+    background-color: #3E5902;
+}
+.ing1, .ing2, .inst {
+    color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+

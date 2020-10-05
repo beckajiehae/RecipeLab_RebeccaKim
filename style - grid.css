@@ -1,0 +1,63 @@
+.recipe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 1em;
+    grid-template-areas: 
+        "logo logo"
+        "navigation navigation"
+        "header header"
+        "content content"
+        "cooki cooki"
+        "ingredient1 ingredient2"
+        "instruct instruct";
+    }
+    
+    h {
+        grid-area: logo;
+    }
+    .navigation {
+        grid-area: navigation;
+    }
+
+    .title {
+        grid-area: header;
+    }
+
+    .word {
+        grid-area: content;
+    }
+
+    .cook {
+        grid-area: cooki;
+    }
+
+    }
+    .ing1 {
+        grid-template-columns: (minmax(700px, 1fr));
+        grid-area: ingredient1;
+        
+    }
+    .ing2 {
+        grid-template-columns: (minmax(700px, 1fr));
+        grid-area: ingredient2;
+    }
+
+    .inst {
+        grid-area: instruct;
+    }
+
+    @media (min-width: 300px) and (max-width: 700px) {
+        .recipe {
+            grid-template-columns: 2fr;
+            grid-template-areas: 
+            "logo logo"
+            "navigation navigation"
+            "header header"
+            "content content"
+            "cooki cooki"
+            "ingredient1 ingredient1"
+            "ingredient2 ingredient2"
+            "instruct instruct";
+        }
+    }
